@@ -1,0 +1,21 @@
+{
+ "temp": {
+    "unite": 0,
+    "state": 1
+    },
+ "pression": {
+    "unite": 0,
+    "state": 0
+ },
+ "nuage": {
+    "visib": {
+       "unite": 1,
+       "state": 1
+    },
+    "status": 1
+ },
+ "vent": {
+    "unite": 0,
+    "state": 1
+ }
+}

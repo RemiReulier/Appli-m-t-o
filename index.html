@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script src="page.config" type="text/xml"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Météo</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header>
+    <h2>Voici la météo de </h2>
+  </header>
+  <main>
+    <h1>Saint-Herblon</h1>
+    <img src="carte.png" alt="image" class="center">
+    <div class="center">
+      <p class="contenant" id="temp">Température : <span class="contenu">temp</span>°<span class="unite">C</span></p>
+      <p class="contenant" id="cloud">Couverture nuageuse : <span class="contenu">cloud</span> <span class="unite"></span></p>
+      <p class="contenant" id="vent">Vitesse du vent : <span class="contenu">vent</span> <span class="unite"></span></p>
+      <p class="contenant" id="eyes">Visibilité : <span class="contenu">eyes</span> <span class="unite"></span></p>
+      <p class="contenant" id="sunrise/moonrise">Lever/coucher de la lune, du soleil : <span class="contenu">sunrise/moonrise</span> <span class="unite"></span></p>
+      <p class="contenant" id="jour">durée du jour : <span class="contenu">jour</span> <span class="unite"></span></p>
+      <p class="contenant" id="phases">Phases de la lune : <span class="contenu">phases</span> <span class="unite"></span></p>
+    </div>
+    <a href="contact.html" class="center">Contact</a>
+    <a href="config.html" class="center">Config</a>
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>
