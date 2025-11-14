@@ -87,4 +87,4 @@ afficher();
 
 //litConfig();
 
-console.log(fetch("pref.json"))
+console.log(fetch("https://github.com/RemiReulier/Appli-m-t-o/blob/main/pref.json"))
